@@ -1,17 +1,13 @@
-# conda env create --file environment.yml
 name: manejo_de_rutas
 channels:
-  - anaconda
   - conda-forge
   - defaults
 dependencies:
-  - fs
-  - jupyter
   - jupyterlab
-  - pathlib
-  - pip
-  - pyprojroot
   - python=3.9
-  - pip:
-    - pyhere
-    
+  - jupyter
+  - pip
+  - fs
+  - pyprojroot
+  - pathlib
+prefix: /Users/saimonssd/anaconda3/envs/manejo_de_rutas
